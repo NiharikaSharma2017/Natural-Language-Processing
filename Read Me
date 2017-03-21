@@ -1,0 +1,128 @@
+Submitted by : Niharika Sharma (sharma.nih@husky.neu.edu)
+
+
+Problem1: Computing Cross Entropy
+
+Python File Name : Compute_Cross_Entropy.py
+
+Running Instructions:
+1. Open Terminal
+2. Move to Directory HW1
+3. Run the command: python3 Compute_Cross_Entropy.py
+
+Program computes and lists the Cross Entropy values for the given 4 passages on Terminal
+
+Output:
+Cross Entropy for Passage  1 = 123.99614855644145
+Cross Entropy for Passage  2 = 132.84418727216675
+Cross Entropy for Passage  3 = 158.84495074698404
+Cross Entropy for Passage  4 = 163.54081180101764
+
+==================================================
+
+Problem2: Text Categorization
+
+Problem2.2:
+
+Python File Name : NB_PlayGenrePrediction.py
+
+Running Instructions:
+
+IMPORTANT: To run this python script, complete paths to the directories 'comedies' and 'tragedies' are needed.
+Please move to the location of these directories on your machine and use the "pwd" command to get the complete paths
+which would serve as parameters for the python program.
+
+1. Open Terminal
+2. get the complete paths to directories 'comedies' and 'tragedies' saved on your machine.
+3. Move to Directory HW1
+4. Run the command: python3 NB_PlayGenrePrediction.py complete_path_to_comedies complete_path_to_tragedies
+
+Example: I use the command-
+python3 NB_PlayGenrePrediction.py /Users/niharikasharma/PycharmProjects/NLPHW1/shakespeare/comedies /Users/niharikasharma/PycharmProjects/NLPHW1/shakespeare/tragedies
+
+Output:
+Prediction Output is written to file: PlayGenrePredictionOutputFile
+
+Prediction Accuracy: 18/22
+Q: Which comedy was most like a tragedy?
+A: mnd.txt
+
+Q: Which tragedy was most like a comedy?
+A: tc.txt
+
+*************
+
+Problem2.1 and 2.3:
+
+Python File Name : NB_TrainAllPlays.py
+
+Running Instructions:
+
+IMPORTANT: To run this python script, complete paths to the directories 'comedies' and 'tragedies' are needed.
+Please move to the location of these directories on your machine and use the "pwd" command to get the complete paths
+which would serve as parameters for the python program.
+
+1. Open Terminal
+2. get the complete paths to directories 'comedies' and 'tragedies' saved on your machine.
+3. Move to Directory HW1
+4. Run the command: python3 NB_TrainAllPlays.py complete_path_to_comedies complete_path_to_tragedies
+
+Example: I use the command-
+python3 NB_TrainAllPlays.py /Users/niharikasharma/PycharmProjects/NLPHW1/shakespeare/comedies /Users/niharikasharma/PycharmProjects/NLPHW1/shakespeare/tragedies
+
+Vocabulary is written to file: Vocabulary
+The 20 most “comic” features and the 20 most “tragic” features, with their log likelihood ratios are listed on Terminal
+
+Output:
+
+Top 20 Comic Features:
+rosalind	7.874066831274402
+syracuse	7.75728101772502
+dromio	7.700147731091556
+antipholus	7.677273906740996
+proteus	7.677273906740996
+mrs	7.672635679501839
+toby	7.62503030830649
+berowne	7.575044890857221
+falstaff	7.5060886299617176
+parolles	7.461162490002298
+orlando	7.395896152855124
+ephesus	7.3773312632308246
+isabella	7.364760387443582
+pedro	7.332623945891793
+julia	7.25806367833121
+olivia	7.25806367833121
+viola	7.236725742157552
+tranio	7.229510703643402
+bene	7.207547888194308
+bertram	7.177493033997809
+
+
+
+
+Top 20 Tragic Features:
+iago	8.192792471043347
+ham	8.184449819764321
+othello	8.072270989735753
+macbeth	7.935207683302211
+cleopatra	7.856984649484503
+cassio	7.7888493279470605
+cassius	7.729027991871448
+lear	7.711257644198422
+desdemona	7.7067652736603165
+coriolanus	7.641656276159524
+menenius	7.577149790389001
+lucius	7.474689558262096
+kent	7.4517132459774285
+rom	7.3980010523869035
+enobarbus	7.334728845423573
+marcius	7.2459939961028965
+emilia	7.2316156031751815
+sicinius	7.224348129328204
+marcus	7.209652787726088
+romeo	7.187196754288215
+
+
+
+
+
